@@ -1,0 +1,263 @@
+/* GENERAL STYLES */
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans Pro";
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    margin: .5rem 1rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.home-btn {
+    margin-right: 2rem;
+    
+}
+
+/* ABOUT ME */
+.about-me {
+    margin: 0 1rem 2rem;
+}
+
+.about-me-title,
+.about-me-header,
+.about-me-p-header, 
+.about-me-p {
+    margin-bottom: 0.25rem;
+}
+
+.about-me-img {
+    width: 50%;
+    border-radius: 50%;
+    margin: 2rem 0;
+}
+
+/* RECENT POSTS */
+.recent-posts-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+/* BLOG */
+.blog-container {
+    margin: 0 1rem;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: auto;
+    justify-items: center;
+}
+
+.blog {
+    height: fit-content;
+    margin-bottom: 2rem;
+}
+
+.blog-img {
+    width: 100%;
+    height: 50%;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #202020;
+}
+
+/* TYPOGRAPHY */
+.journal-logo {
+   width: 23.16px;
+   height: 23.16px;
+}
+
+.journal-title {
+    margin-left: 0.25rem;
+    font-weight: 700;
+    font-size: 13.55px;
+    line-height: 14.66px;
+}
+
+.home-btn,
+.about-me-btn {
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 15.06px;
+    text-transform: uppercase;
+    text-decoration: none;
+    align-self: center;
+    color: black;
+}
+
+.about-me-date {
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 15.08px;
+}
+
+.about-me-title {
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 34.62px;
+    margin-top: 1rem;
+}
+.about-me-header,
+.about-me-p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 20.11px;
+}
+
+.about-me-p-header,
+.recent-posts-header {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 20.11px;
+}
+
+.blog-date {
+    font-weight: 400;
+    font-size: 0.885625rem;
+    line-height: 17.82px;
+    margin-bottom: -1rem;
+}
+
+.blog-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 25.97px;
+    margin-bottom: -.5rem;
+}
+
+.blog-p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 20px;
+}
+
+.footer-title {
+    color: #ECECEC;
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 12.98px;
+    margin-bottom: -0.5rem;
+    margin-top: 1rem;
+}
+
+.footer-p {
+    color: #D7D7D7;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 15px;
+}
+
+@media(min-width: 600px) {
+    /* ABOUT ME */
+    .about-me {
+        margin: 3rem 5rem 3rem;
+    }
+
+    .about-me-img-container {
+        align-self: center;
+        width: 30%;
+        margin-right: 2rem;
+        margin-left: -3rem;
+    }
+
+    .about-me-text-container {
+        align-self: center;
+        width: fit-content;
+    }
+
+    .about-me-section {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about-me-img {
+        height: fit-content;
+        width: 100%;
+    }
+
+    .about-me-title,
+    .about-me-header {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* BLOG */
+    .blog-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        gap: 1rem
+    }
+
+    .blog {
+        margin-bottom: 1rem;
+    }
+
+    .blog-img {
+        width: 100%;
+        height: 50%;
+    }
+
+    /* TYPOGRAPHY */
+    .about-me-p-header {
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 30.17px;
+    }
+    .about-me-header,
+    .about-me-p {
+        font-weight: 400;
+        font-size: 18.29px;
+        line-height: 22.98px;
+    }
+
+    .recent-posts-header {
+        font-weight: 700;
+        font-weight: 1.5rem;
+        line-height: 25.97px;
+    }
+    
+    .blog-date {
+        font-weight: 400;
+        font-size: 0.885625rem;
+        line-height: 17.82px;
+    }
+    
+    .blog-title {
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 25.97px;
+    }
+    
+    .blog-p {
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 20px;
+    }
+}
