@@ -4,7 +4,7 @@ Learning Journal/Blog Solo Project from [Scrimba](https://scrimba.com/learn/fron
 
 ## Project Link
 
-[Project Link](https://restaurant-ordering-scrimba.netlify.app/) Hosted using Netlify 
+[Project Link] Hosted using Netlify 
 
 ## Previews
 Home Page (Less than 600 pixels wide)
