@@ -4,7 +4,7 @@ Learning Journal/Blog Solo Project from [Scrimba](https://scrimba.com/learn/fron
 
 ## Project Link
 
-[Project Link] Hosted using Netlify 
+[Project Link] https://learning-journal-blog-project.netlify.app/ Hosted using Netlify 
 
 ## Previews
 
